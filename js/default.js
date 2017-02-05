@@ -12,6 +12,8 @@ class headeranimation {
 		this.section = Array.from(document.querySelectorAll('.section'));
 
 		this.header_nav.style.backgroundColor = window.getComputedStyle( this.section[0] ,null).getPropertyValue('background-color');
+		this.header_nav.style.color = window.getComputedStyle( this.section[0] ,null).getPropertyValue('color');
+		
 		const navHeightCalc = window.getComputedStyle( this.header_nav ,null).getPropertyValue('height');
 
 		this.navHeight = this.header_nav.clientHeight;
