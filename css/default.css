@@ -61,7 +61,6 @@ body {
 h1 {
     font-size: 5em;
 }
-
 .flex-col {
     display: flex;
     flex-flow: column;
@@ -172,4 +171,12 @@ option, select {
 
 .gm-style-cc {
     display: none;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.main-continer {
+    background: #1b1f46;
 }
