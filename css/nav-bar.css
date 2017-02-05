@@ -1,0 +1,23 @@
+.nav-bar{
+    background: #fafafa;
+    height: 70px;
+    margin:0;
+    list-style: none;
+}
+
+.nav-bar a{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.nav-bar li{
+    margin:0;
+    font-size: 14px;
+    color: #2b3376;
+    border-right: #e5e5e5 solid 1px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.nav-bar li:nth-last-child(1){
+    border: none;
+}

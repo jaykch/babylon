@@ -1,0 +1,63 @@
+#show {
+    margin-top:-20vh;
+    background: #fff;
+    z-index: 10;
+    position: relative;
+    color: #2b3376;
+}
+
+
+#chill {
+    background: #2b3376;
+    color: #fff;
+}
+
+#party {
+    background: #7ccbe0;
+    color: #2b3376;
+}
+
+#music {
+    background: #fadf10;
+    color: #2b3376;
+}
+
+#food {
+    background: #2b3376;
+    color: #fff;
+}
+
+#contact {
+    background: #fff;
+    color: #2b3376;
+}
+
+h2{
+    font-size: 5vh;
+    padding: 30px;
+    text-align: center;
+}
+
+.food{
+    text-align: right;
+    padding:0 30px 0 50px;
+}
+
+.drinks{
+    text-align: left;
+    border-left: white 3px dotted;
+    padding:0 50px 0 30px;
+}
+
+.food, .drinks{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.drinks ul{
+}
+
+.spotify{
+    height: 40vh;
+    width:90%;
+ }
