@@ -14,44 +14,53 @@
 
 </head>
 <body>
-<!-- <header>
-    <nav class="container">
-        <ul class="nav-bar flex-row justify-end align-center fat-font">
-            <li class="nav-element"><a href="#">Home</a></li>
-            <li class="nav-element"><a href="#show">The Show</a></li>
-            <li class="nav-element"><a href="#chill">Chill &amp; Party</a></li>
-            <li class="nav-element"><a href="#music">Music</a></li>
-            <li class="nav-element"><a href="#food">Food &amp; Drink</a></li>
-            <li class="nav-element"><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
-</header> -->
-<div class="fullscreen-bg-container">
+<!-- Background Video -->
+<section class="fullscreen-bg-container">
     <div class="fullscreen-bg">
         <video loop muted autoplay class="fullscreen-bg__video">
             <source src="media/video/banner.mp4" type="video/mp4">
         </video>
     </div>
-</div>
-<main class="container-fluid no-padding main-continer">
+<!-- Background Video -->
+</section>
+<!-- Main container -->
+<main id="home" class="container-fluid no-padding main-continer">
+
     <div class="container">
-        <section id="show">
+        <!-- header container -->
+        <header id="navigation-container" class="">
+            <!-- navigation Bar -->
+            <nav class="nav-bar clearfix">
+                <ul class="flex-row justify-center align-center fat-font">
+                    <li class="nav-element"><a href="#home">Home</a></li>
+                    <li class="nav-element"><a href="#show">The Show</a></li>
+                    <li class="nav-element"><a href="#chill">Chill &amp; Party</a></li>
+                    <li class="nav-element"><a href="#music">Music</a></li>
+                    <li class="nav-element"><a href="#food">Food &amp; Drink</a></li>
+                    <li class="nav-element"><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <!-- navigation Bar -->
+        </header>
+        <!-- header container -->
+        <section id="show" class="section">
             <h2 class="fat-font">The Show</h2>
         </section>
-        <section id="chill">
+        <section id="chill" class="section">
             <h2 class="fat-font">Chill</h2>
         </section>
-        <section id="party">
+        <section id="party" class="section">
             <h2 class="fat-font">Party</h2>
         </section>
-        <section id="music" class="flex-col align-center">
+        <section id="music" class="section flex-col align-center">
             <h2 class="fat-font">Music</h2>
             <iframe class="spotify"
                     src="https://embed.spotify.com/?uri=spotify:user:1134502233:playlist:7qZpfwcrcK0HN3vivx5fnI"
                     frameborder="0" allowtransparency="true">                
             </iframe>
+            <div >
         </section>
-        <section id="food">
+        <section id="food" class="section">
             <h2 class="fat-font">Food &amp; Drinks</h2>
             <div class="row">
                 <div class="col-lg-6 food">
@@ -76,12 +85,15 @@
                 </div>
             </div>
         </section>
-        <section id="contact">
+        <section id="contact" class="section">
             <h2 class="fat-font">Contact Us</h2>
         </section>
     </div>
-</main>
 
+
+    <script type="text/javascript" src="js/default.js"></script>
+</main>
+<!-- Main container -->
 <footer>
 
 </footer>

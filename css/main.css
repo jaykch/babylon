@@ -1,5 +1,4 @@
-#show {
-    margin-top:-20vh;
+#show {    
     background: #fff;
     z-index: 10;
     position: relative;
@@ -18,8 +17,8 @@
 }
 
 #music {
-    background: #fadf10;
-    color: #2b3376;
+    background: #282828;
+    color: #1ED760;
 }
 
 #food {
@@ -58,6 +57,7 @@ h2{
 }
 
 .spotify{
-    height: 40vh;
-    width:90%;
+    height: 600px;
+    width:100%;
  }
+ 

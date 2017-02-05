@@ -7,11 +7,11 @@
     font-family: 'Rubik', sans-serif;
     list-style: none;
 
-    -webkit-transition: all 0.65s ease;
-    -moz-transition: all 0.65s ease;
-    -ms-transition: all 0.65s ease;
-    -o-transition: all 0.65s ease;
-    transition: all 0.65s ease;
+    // -webkit-transition: all 0.65s ease;
+    // -moz-transition: all 0.65s ease;
+    // -ms-transition: all 0.65s ease;
+    // -o-transition: all 0.65s ease;
+    // transition: all 0.65s ease;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
