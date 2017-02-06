@@ -1,10 +1,15 @@
 .nav-bar{
-    background: #fafafa;
-    height: 70px;
     margin:0;
-    list-style: none;
+    margin-top:-20vh;
 }
-
+.nav-bar ul {
+    list-style: none;
+    margin:0;
+    height: 70px;    
+}
+#navigation-container {
+    margin-top:-20vh;
+}
 .nav-bar a{
     font-family: 'Rubik Mono One', sans-serif;
 }
@@ -12,12 +17,31 @@
 .nav-bar li{
     margin:0;
     font-size: 14px;
-    color: #2b3376;
+    color: inherit;
     border-right: #e5e5e5 solid 1px;
     padding: 0 30px;
     text-align: center;
 }
+.nav-bar li a {
+    color: inherit;
+    transition: none;
+}
 
 .nav-bar li:nth-last-child(1){
     border: none;
+}
+
+.nav-fixed {
+    position: fixed;
+    top: 0;
+    padding: 0 15px;
+    background-clip: content-box;
+    margin: 0 auto;
+    margin-top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+}
+.nav-shadow {
+    box-shadow: 0px 5px 25px -9px rgba(0, 0, 0, 0.8);
 }
