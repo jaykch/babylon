@@ -14,17 +14,26 @@
 
 </head>
 <body>
-<!-- Background Video -->
+
 <section id="home" class="fullscreen-bg-container">
+
+    <!-- Background Video -->
     <div class="fullscreen-bg">
+        <div class="header-text text-center">
+            <img src="media/img/header-logo.png" class="img-responsive header-logo">
+            <p>Sudeley Castle, Near Cheltenham, Gloucestershire</p>
+            <h3>22nd - 25th</h3>
+            <h3 class="year">June 2017</h3>
+            <p class="deposit-txt">Place a £30 deposit to secure your ticket today Packages from £89.</p>
+        </div>
         <video loop muted autoplay class="fullscreen-bg__video">
             <source src="media/video/banner.mp4" type="video/mp4">
         </video>
     </div>
-<!-- Background Video -->
+    <!-- Background Video -->
 </section>
 <!-- Main container -->
-<main class="container-fluid no-padding main-continer">
+<main id="home" class="container-fluid no-padding main-continer">
 
     <div class="container">
         <!-- header container -->
@@ -35,7 +44,7 @@
                     <li class="nav-element"><a href="#home">Home</a></li>
                     <li class="nav-element"><a href="#show">The Show</a></li>
                     <li class="nav-element"><a href="#chill">Chill &amp; Party</a></li>
-                    <li class="nav-element"><a href="#music">Music</a></li>
+                    <li class="nav-element"><a href="#music">Playlist</a></li>
                     <li class="nav-element"><a href="#food">Food &amp; Drink</a></li>
                     <li class="nav-element"><a href="#contact">Contact Us</a></li>
                 </ul>
@@ -43,22 +52,36 @@
             <!-- navigation Bar -->
         </header>
         <!-- header container -->
-        <section id="show" class="section">
-            <h2 class="fat-font">The Show</h2>
+        <section id="show" class="section flex-col align-center">
+            <div class="dots-header flex-col align-center">
+                <h2>The Show</h2>
+                <img src="media/img/dots.svg" alt="">
+            </div>
+            <p class="fat-font show-subtitle">
+                Get pampered while you party</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
+                ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent
+                mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            </p>
         </section>
         <section id="chill" class="section">
-            <h2 class="fat-font">Chill</h2>
+            <h2>chill-and-party</h2>
+            <p>
+                We like to throw a plethora of pleasure, naughty and nice, into the mix. Here’s some of what we get up
+                to at our events:
+            </p>
         </section>
         <section id="party" class="section">
-            <h2 class="fat-font">Party</h2>
+            <h2 class="fat-font">Extras</h2>
         </section>
         <section id="music" class="section flex-col align-center">
-            <h2 class="fat-font">Music</h2>
+            <h2 class="fat-font">PLAYLIST</h2>
             <iframe class="spotify"
                     src="https://embed.spotify.com/?uri=spotify:user:1134502233:playlist:7qZpfwcrcK0HN3vivx5fnI"
-                    frameborder="0" allowtransparency="true">                
+                    frameborder="0" allowtransparency="true">
             </iframe>
-            <div >
         </section>
         <section id="food" class="section">
             <h2 class="fat-font">Food &amp; Drinks</h2>
@@ -86,7 +109,9 @@
             </div>
         </section>
         <section id="contact" class="section">
-            <h2 class="fat-font">Contact Us</h2>
+
+            <h2>Contact Us</h2>
+
         </section>
     </div>
 
