@@ -9,6 +9,8 @@
 }
 #navigation-container {
     margin-top:-20vh;
+    z-index: 99;
+    position: relative;
 }
 .nav-bar a{
     font-family: 'Rubik Mono One', sans-serif;
