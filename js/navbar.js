@@ -68,7 +68,7 @@ jQuery(document).ready(function($) {
     /*-----------------------------------------------------------------------------------*/
     /* 		NAVIGATION SMOOTH SCROLL
     /*-----------------------------------------------------------------------------------*/
-    $('.nav-bar ul a[href*=#]:not([href=#])').click(function() {
+    $('.nav-bar ul a[href*=\\#]:not([href=\\#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
             || location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html,body').animate({
-             scrollTop: target.offset().top
+             scrollTop: target.offset().top - $('#navigation-container').outerHeight() + 1
             }, 1000, function () {
                 window.location.hash = href;
             });
@@ -84,35 +84,11 @@ jQuery(document).ready(function($) {
           }
         }
     });
-    var navLinkIDs = "";
-    $('.nav-bar ul a[href*=#]:not([href=#])').each(function(index) {
-        if(navLinkIDs != "") {
-            navLinkIDs += ", ";
-        }
-        navLinkIDs += $('.nav-bar ul a[href*=#]:not([href=#])').eq(index).attr("href");
-    });
-    if( navLinkIDs ) {
-       $(navLinkIDs).waypoint(function(direction) {
-           if(direction=='down') {
-               $('.nav-bar ul a').parent().removeClass("active");
-               $('.nav-bar ul a[href="#'+$(this).attr('id')+'"]').parent().addClass("active");
-           }
-       }, { offset: 70 });
-        $(navLinkIDs).waypoint(function(direction) {
-           if(direction=='up') {
-               $('.nav-bar ul a').parent().removeClass("active");
-               $('.nav-bar ul a[href="#'+$(this).attr('id')+'"]').parent().addClass("active");
-           }
-       }, {  offset: function() {
-           return -$(this).height() + 20;
-       } });
-    }
-
 
     /*-----------------------------------------------------------------------------------*/
     /* 		Active Menu Item on Page Scroll
     /*-----------------------------------------------------------------------------------*/
-/*    $(window).scroll(function(event) {
+    $(window).scroll(function(event) {
     		Scroll();
     });	
     $('.scroll a').click(function() {  
@@ -136,6 +112,6 @@ jQuery(document).ready(function($) {
     		  .removeClass('active')
     			.eq(i).addClass('active');			
     		}}
-    )};*/
+    )};
 
 });
