@@ -11,16 +11,17 @@
     text-transform: uppercase;
     padding-bottom: 20px;
 }
-.show-subtitle{
-    padding: 20px;
-    font-size: 3em;
-}
-
 #show p{
     max-width: 720px;
     text-align: center;
+    font-size: 16px;
 }
-
+.show-subtitle{
+    max-width: 720px;
+    padding: 20px;
+    font-size: 3em;
+    text-align: center;
+}
 #chill {
     background: #2b3376;
     color: #fff;
