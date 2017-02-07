@@ -27,6 +27,8 @@
 .nav-bar li a {
     color: inherit;
     transition: none;
+    position: relative;
+    z-index: 10;
 }
 
 .nav-bar li:nth-last-child(1){
@@ -76,3 +78,22 @@
     width: 180px;
     margin: 0 auto;
 }
+.nav-element {
+    position: relative;
+}
+ .nav-element.active a:after{
+    content: '';
+    height: 3.5px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #d40b1e;
+    top: 22px;
+    border-radius: 10px;
+} 
+/* .nav-element.active a {
+    color: #d40b1e;
+} */
