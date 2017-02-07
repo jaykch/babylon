@@ -9,7 +9,7 @@ class headertransition {
         this.header_nav = document.querySelector('.nav-bar');
         this.header_nav_ul = document.querySelector('.nav-bar ul');
         this.container = document.querySelector('.container');
-
+        
         this.sections = Array.from(document.querySelectorAll('.section'));
 
         this.header_nav.style.backgroundColor = window.getComputedStyle( this.sections[0] ,null).getPropertyValue('background-color');
@@ -29,8 +29,6 @@ class headertransition {
     }
 
     onScroll (evt) {
-        this.header_nav_ul_li_a_after = document.querySelector('.nav-bar .active a:after');
-        console.log(this.header_nav_ul_li_a_after);
         for (let i = 0; i < this.sections.length; i++) {
 
             var scrollPos = window.scrollY;
