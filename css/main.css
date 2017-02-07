@@ -1,43 +1,47 @@
-#show {    
-    background: #fff;
+#show {
+    background: #f8f8f8;
     z-index: 10;
     position: relative;
     color: #2b3376;
 }
-#show h2{
+
+#show h2 {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 10px;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
-#show p{
+
+#show p {
     max-width: 720px;
     text-align: center;
     font-size: 16px;
 }
-.show-subtitle{
+
+.show-subtitle {
     max-width: 720px;
     padding: 20px;
     font-size: 3em;
     text-align: center;
 }
+
 #chill {
     background: #2b3376;
     color: #fff;
 }
 
-#chill h2{
+#chill h2 {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 10px;
     text-transform: uppercase;
-    padding:50px 0 0 30px;
+    padding: 0 0 30px 30px;
     text-align: left;
 }
 
-#chill p{
-    padding:50px 0 0 30px;
+#chill span {
+    padding: 50px 0 0 30px;
     letter-spacing: 2px;
 }
 
@@ -57,51 +61,88 @@
 }
 
 #contact {
-    background: #fff;
+    background: #f8f8f8;
     color: #2b3376;
 }
 
-#contact h2{
+#contact h2 {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 10px;
     text-transform: uppercase;
-    padding:50px 30px 0 30px;
+    padding: 0 30px 0 30px;
     text-align: right;
 }
 
-#contact p{
-    padding:50px 0 0 30px;
-    letter-spacing: 2px;
+#contact p {
+    font-weight: bold;
+    color: #828282;
+    font-size: .875em;
+
 }
 
-h2{
+h2 {
     font-size: 5vh;
-    padding: 30px;
     text-align: center;
 }
 
-.food{
+.food {
     text-align: right;
-    padding:0 30px 0 50px;
+    padding: 0 30px 0 50px;
 }
 
-.drinks{
+.drinks {
     text-align: left;
     border-left: white 3px dotted;
-    padding:0 50px 0 30px;
+    padding: 0 50px 0 30px;
 }
 
-.food, .drinks{
+.food, .drinks {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.drinks ul{
+.drinks ul {
 }
 
-.spotify{
+.spotify {
     height: 600px;
-    width:100%;
- }
- 
+    width: 100%;
+}
+
+section#music {
+    padding-bottom: 0;
+}
+
+a.header-button {
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border: dashed 3px #fff;
+}
+
+.contact-header {
+    padding-bottom: 20px;
+    border-bottom: solid #e9eaf1 1px;
+}
+
+.contact-feature{
+    padding:0;
+    border-bottom:solid #e9eaf1 1px;
+}
+.contact-feature:nth-child(1){
+    border-left: solid #e9eaf1 1px;
+}
+.contact-feature:nth-child(2){
+    border-right: solid #e9eaf1 1px;
+}
+.contact-feature h4{
+    margin:40px 0 20px 0;
+}
+.contact-feature-item{
+    margin:60px 0;
+    padding:0 60px;
+}
+.contact-feature-item:nth-child(1){
+    border-right: solid #e9eaf1 1px;
+}
