@@ -42,7 +42,7 @@ ul > li > a:hover {
 }*/
 
 .section{
-    padding:60px;
+    padding:60px 60px;
     z-index: 2;
     position: relative;
 }

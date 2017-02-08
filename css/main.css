@@ -4,6 +4,9 @@
     position: relative;
     color: #2b3376;
 }
+section#show {
+    padding-top: 40px; 
+}  
 
 #show h2 {
     font-size: 18px;
@@ -58,6 +61,12 @@
 #food {
     background: #fadf10;
     color: #2b3376;
+}
+#food p {
+    font-weight: 600;
+}
+#food li p {
+    margin-bottom: 6px;
 }
 
 #contact {
@@ -114,13 +123,6 @@ section#music {
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
-}
-
-a.header-button {
-    color: #fff;
-    padding: 10px;
-    margin: 20px;
-    border: dashed 3px #fff;
 }
 
 .contact-header {
@@ -185,4 +187,7 @@ a.header-button {
 
 .footer-social-icons img{
     width:32px;
+}
+.fat-heading {
+    margin-bottom: 30px;
 }

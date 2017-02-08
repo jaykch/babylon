@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
           }
         }
     });
-    var navLinkIDs = "";
+/*    var navLinkIDs = "";
     $('.nav-bar ul a[href*=\\#]:not([href=\\#])').each(function(index) {
         if(navLinkIDs != "") {
             navLinkIDs += ", ";
@@ -108,7 +108,7 @@ jQuery(document).ready(function($) {
        }, {  offset: function() {
            return -$(this).height() + 20;
        } });
-    }
+    }*/
     /*-----------------------------------------------------------------------------------*/
     /* 		NAVIGATION SMOOTH SCROLL END
     /*-----------------------------------------------------------------------------------*/

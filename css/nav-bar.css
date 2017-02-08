@@ -80,19 +80,52 @@
 .nav-element {
     position: relative;
 }
- .nav-element.active a:after{
-    content: '';
-    height: 3.5px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    z-index: 1;
-    background-color: #d40b1e;
-    top: 22px;
-    border-radius: 10px;
-} 
+/*  .nav-element.active a:after{
+   content: '';
+   height: 3.5px;
+   width: 100%;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   z-index: 1;
+   background-color: #d40b1e;
+   top: 22px;
+   border-radius: 10px;
+}  */
 /* .nav-element.active a {
     color: #d40b1e;
 } */
+.header-btn {
+    margin-top: 40px;
+}
+.header-btn a {
+    background-color: rgba(255, 255, 255, 0.88);
+    padding: 22px 32px;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: #1b1f46;
+    margin: 0 30px;
+    font-size: 16px;
+    line-height: 1.6;
+    position: relative;
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+    box-shadow: 0px 0px 3px 0px rgba(255, 255, 255, 0.9);
+}
+.header-btn a:hover {
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 0px 0px 12px 0px rgba(255, 255, 255, 0.9);
+}
+.header-btn a span {
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-bottom: 2px;
+}
