@@ -56,8 +56,8 @@
 }
 
 #food {
-    background: #2b3376;
-    color: #fff;
+    background: #fadf10;
+    color: #2b3376;
 }
 
 #contact {
@@ -93,7 +93,7 @@ h2 {
 
 .drinks {
     text-align: left;
-    border-left: white 3px dotted;
+    border-left: #2b3376 3px dotted;
     padding: 0 50px 0 30px;
 }
 
@@ -112,6 +112,8 @@ h2 {
 
 section#music {
     padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 a.header-button {
@@ -126,33 +128,99 @@ a.header-button {
     border-bottom: solid #e9eaf1 1px;
 }
 
-.contact-feature{
-    padding:0;
-    border-bottom:solid #e9eaf1 1px;
+.contact-feature {
+    padding: 0;
+    border-bottom: solid #e9eaf1 1px;
 }
-.contact-feature:nth-child(1){
+
+.contact-feature:nth-child(1) {
     border-left: solid #e9eaf1 1px;
 }
-.contact-feature:nth-child(2){
+
+.contact-feature:nth-child(2) {
     border-right: solid #e9eaf1 1px;
 }
-.contact-feature h4{
-    margin:40px 0 20px 0;
+
+.contact-feature h4 {
+    margin: 40px 0 20px 0;
 }
-.contact-feature-item{
-    margin:60px 0;
-    padding:0 60px;
+
+.contact-feature-item {
+    margin: 60px 0;
+    padding: 0 60px;
 }
-.contact-feature:nth-child(1)> .contact-feature-item{
+
+.contact-feature:nth-child(1) > .contact-feature-item {
     border-right: solid #e9eaf1 1px;
 }
-.contact-address{
+
+.contact-address {
     text-align: center;
     padding: 60px;
     font-size: .75em;
-    border-bottom:solid #e9eaf1 1px;
+    border-bottom: solid #e9eaf1 1px;
 }
-.contact-address span, .contact-address a{
+
+.contact-address span, .contact-address a {
     color: #828282;
 }
 
+a.arrow-diaporama.blue-dark {
+    border-color: #2b3376;
+}
+
+a.arrow-diaporama {
+    position: absolute;
+    top: initial;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+a.ui-state-default, a.arrow-diaporama {
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+}
+
+a.arrow-diaporama {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #fff;
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-transition: background 100ms ease-out;
+    -o-transition: background 100ms ease-out;
+    -webkit-transition: background 100ms ease-out;
+    transition: background 100ms ease-out;
+    user-select: none;
+}
+
+a.arrow-diaporama.blue-dark.top:after {
+    top: 14px;
+    left: 20px;
+    width: 10px;
+    height: 20px;
+    background-image: url(../media/img/sprites01-1x.png);
+    background-position: -418px -37px;
+    -moz-transition: top 150ms ease-out;
+    -o-transition: top 150ms ease-out;
+    -webkit-transition: top 150ms ease-out;
+    transition: top 150ms ease-out;
+}
+
+a.arrow-diaporama:after {
+    position: absolute;
+    top: 19px;
+    left: 14px;
+    display: block;
+    -moz-transition: left 150ms ease-out;
+    -o-transition: left 150ms ease-out;
+    -webkit-transition: left 150ms ease-out;
+    transition: left 150ms ease-out;
+}
