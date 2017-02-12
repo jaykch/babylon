@@ -1,3 +1,6 @@
+#home{
+    padding-top: 10vh;
+}
 #show {
     background: #f8f8f8;
     z-index: 10;
@@ -119,10 +122,16 @@ h2 {
     width: 100%;
 }
 
-section#music {
+section#music, section#video {
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+section#video{
+    padding-top: 10px;
+    background: #000;
+    color: #fff;
 }
 
 .contact-header {
@@ -190,4 +199,8 @@ section#music {
 }
 .fat-heading {
     margin-bottom: 30px;
+}
+
+#music p{
+    font-size: 16px;
 }
