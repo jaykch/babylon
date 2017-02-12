@@ -51,12 +51,6 @@ section#show {
     letter-spacing: 2px;
 }
 
-#party {
-    background: #7ccbe0;
-    color: #2b3376;
-    font-weight: 600;
-}
-
 #music {
     background: #282828;
     color: #1ED760;
@@ -65,9 +59,6 @@ section#show {
 #food {
     background: #2b3376;
     color: #fff;
-}
-#food p {
-    font-weight: 600;
 }
 #food li p {
     margin-bottom: 6px;
@@ -107,7 +98,7 @@ h2 {
 
 .drinks {
     text-align: left;
-    border-left: #2b3376 3px dotted;
+    border-left: #fff 3px dotted;
     padding: 0 50px 0 30px;
 }
 
@@ -210,7 +201,7 @@ section#video{
 }
 .card-container{
     height:400px;
-    margin:20px;
+    margin:20px 0;
     width: 30%;
 }
 .card-container:nth-child(1){
@@ -237,7 +228,7 @@ section#video{
 }
 .section#contact .icon-container {    
     border-radius: 50%;
-    padding: 11px 19px;
+    padding: 11.5px 20px;
     border: 2px solid #2b3376;
     margin-right: 15px;
     position: relative;
