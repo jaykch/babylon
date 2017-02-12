@@ -1,5 +1,5 @@
 #home{
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
 }
 #show {
     background: #f8f8f8;
@@ -243,4 +243,38 @@ section#video{
     position: relative;
     font-weight: 900;
 }
-
+.header-social {
+    margin-top: 60px;
+}
+.header-social .fa {
+    font-size: 18px;
+    position: absolute;
+    color: #d40b1e;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 0;
+    margin-top: 11px;
+}
+.header-social .icon-container {    
+    border-radius: 50%;
+    padding: 11.5px 20px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-right: 15px;
+    position: relative;
+    font-weight: 900;
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+}
+.header-social .icon-container:hover .fa {
+    color: #fff;
+}
+.header-social .icon-container:hover {    
+    border: 2px solid #d40b1e;
+    background-color: #d40b1e;
+}
