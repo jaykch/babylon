@@ -225,3 +225,22 @@ section#video{
     background: url("https://scontent-sit4-1.xx.fbcdn.net/v/l/t31.0-8/16251617_827677800704030_1771880869249293669_o.jpg?oh=2641127bbb4d6f105ee24ca98b6eda00&oe=594C1B90") center;
     background-size: cover;
 }
+.section#contact .fa {
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 0;
+    margin-top: 11px;
+}
+.section#contact .icon-container {    
+    border-radius: 50%;
+    padding: 11px 19px;
+    border: 2px solid #2b3376;
+    margin-right: 15px;
+    position: relative;
+    font-weight: 900;
+}
+
