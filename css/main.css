@@ -33,8 +33,8 @@ section#show {
 }
 
 #chill {
-    background: #2b3376;
-    color: #fff;
+    background: #fadf10;
+    color: #2b3376;
 }
 
 #chill h2 {
@@ -54,6 +54,7 @@ section#show {
 #party {
     background: #7ccbe0;
     color: #2b3376;
+    font-weight: 600;
 }
 
 #music {
@@ -62,8 +63,8 @@ section#show {
 }
 
 #food {
-    background: #fadf10;
-    color: #2b3376;
+    background: #2b3376;
+    color: #fff;
 }
 #food p {
     font-weight: 600;
@@ -75,6 +76,7 @@ section#show {
 #contact {
     background: #f8f8f8;
     color: #2b3376;
+    margin-bottom: 20px;
 }
 
 #contact h2 {
@@ -205,4 +207,21 @@ section#video{
 }
 .dots-header img {
     width: 45px;
+}
+.card-container{
+    height:400px;
+    margin:20px;
+    width: 30%;
+}
+.card-container:nth-child(1){
+    background: url("https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/16700563_836052709866539_5697341633593345029_o.jpg?oh=9c7ca820b4d53ca0db5885c59906b2e6&oe=593C435E") center;
+    background-size: cover;
+}
+.card-container:nth-child(2){
+    background: url("https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/10959991_509507552521058_1339098051511698075_o.jpg?oh=9f7a76f6a26018480c6ec9fd9a1a1857&oe=5905F85C") center;
+    background-size: cover;
+}
+.card-container:nth-child(3){
+    background: url("https://scontent-sit4-1.xx.fbcdn.net/v/l/t31.0-8/16251617_827677800704030_1771880869249293669_o.jpg?oh=2641127bbb4d6f105ee24ca98b6eda00&oe=594C1B90") center;
+    background-size: cover;
 }
