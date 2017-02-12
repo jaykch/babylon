@@ -70,7 +70,7 @@ jQuery(document).ready(function($) {
     /*-----------------------------------------------------------------------------------*/
     /* 		NAVIGATION SMOOTH SCROLL
     /*-----------------------------------------------------------------------------------*/
-    $('.nav-bar ul a[href*=\\#]:not([href=\\#])').click(function() {
+    $('.scroll-anchor ul a[href*=\\#]:not([href=\\#]) , .to-top').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
             || location.hostname == this.hostname) {
           var target = $(this.hash);

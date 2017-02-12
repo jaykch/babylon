@@ -200,7 +200,9 @@ section#video{
 .fat-heading {
     margin-bottom: 30px;
 }
-
-#music p{
+#music p {
     font-size: 16px;
+}
+.dots-header img {
+    width: 45px;
 }
