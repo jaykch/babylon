@@ -1,10 +1,11 @@
-.banner video{
+.banner video {
     height: 100%;
     width: 100%;
 }
 .fullscreen-bg-container {
 	position: relative;
     height: 100vh;
+    background-color: #fafafa;
 }
 .fullscreen-bg {
     position: fixed;
@@ -31,15 +32,8 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
- 
-@media (max-width: 1200px) {
-    .fullscreen-bg {
-        background: url('../media/img/background.jpg') center center / cover no-repeat;
-
-    }
-
-    .fullscreen-bg__video {
-        display: none;
-
-    }
+.fullscreen-bg-mobile {
+    position: relative;
+    width: 100%;
+    display: block;
 }

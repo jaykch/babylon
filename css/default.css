@@ -57,6 +57,7 @@ a {
 
 tbody {
     overflow: auto;
+    overflow-x: hidden;
 }
 
 body {
@@ -188,6 +189,9 @@ option, select {
 .no-padding-right{
     padding-right:0!important;
 }
-.main-continer {
+.main-container {
     background: #1b1f46;
+}
+.mobile-header {
+    display: none;
 }

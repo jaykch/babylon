@@ -5,7 +5,10 @@
 .nav-bar ul {
     list-style: none;
     margin:0;
-    height: 70px;    
+    height: 70px; 
+    display: flex;
+    flex-flow: row;   
+    justify-content: center;
 }
 #navigation-container {
     margin-top:-20vh;
@@ -103,6 +106,7 @@
     background-color: #fff;
     padding: 22px 32px;
     font-family: 'Rubik', sans-serif;
+    outline: none;
     font-weight: 900;
     color: #d40b1e;
     margin: 0 30px;
@@ -127,4 +131,7 @@
     left: 0;
     margin-left: 40px;
     margin-bottom: 2px;
+}
+.navbar-collapse {
+    padding: 0;
 }

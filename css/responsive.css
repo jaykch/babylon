@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+		padding: 0;
+	}
+	.main-container {
+		width: 100%;
+	}
+	.fullscreen-bg-container {
+		display: none;
+	}
+	.nav-bar{
+	    margin:0;
+	}
+	.nav-bar ul {
+		height: auto;
+		display: block;
+	}
+	.nav-bar ul li {
+		padding: 0;
+		text-align: left;
+	}
+	.nav-bar ul li a{
+		padding: 12px 0;
+		display: block;
+	}
+	.mobile-header {
+		display: block;
+	}
+	#navigation-container {
+	    margin-top: 0;
+	    z-index: 99;
+	    position: relative;
+	}
+	.nav-fixed {
+		padding: 0;
+	}
+
+}//end media query
