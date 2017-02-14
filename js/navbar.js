@@ -9,6 +9,8 @@ class headertransition {
         this.header_nav = document.querySelector('.nav-bar');
         this.header_nav_ul = document.querySelector('.nav-bar ul');
         this.container = document.querySelector('.container');
+
+        this.nav_act = document.querySelector('.active-nav-element');
         
         this.sections = Array.from(document.querySelectorAll('.section'));
 
@@ -29,6 +31,9 @@ class headertransition {
     }
 
     onScroll (evt) {
+        this.nav_active_ele = document.querySelector('.nav-element.active a');
+        this.nav_act.innerHTML = this.nav_active_ele.innerHTML;
+
         for (let i = 0; i < this.sections.length; i++) {
 
             var scrollPos = window.scrollY;
@@ -47,11 +52,11 @@ class headertransition {
 
             if ( scrollPos >= this.header.offsetTop) {
                 this.header_nav.classList.add('nav-fixed'); 
-                this.header_nav_ul.classList.add('nav-shadow'); 
+                // this.header_nav_ul.classList.add('nav-shadow'); 
                 this.header_nav.style.width = window.getComputedStyle( this.container ,null).getPropertyValue('width');
             }else {
                 this.header_nav.classList.remove('nav-fixed');
-                this.header_nav_ul.classList.remove('nav-shadow');  
+                // this.header_nav_ul.classList.remove('nav-shadow');  
                 this.header_nav.style.width = "100%";
             }
 
@@ -86,7 +91,7 @@ jQuery(document).ready(function($) {
           }
         }
     });
-/*    var navLinkIDs = "";
+    var navLinkIDs = "";
     $('.nav-bar ul a[href*=\\#]:not([href=\\#])').each(function(index) {
         if(navLinkIDs != "") {
             navLinkIDs += ", ";
@@ -108,10 +113,13 @@ jQuery(document).ready(function($) {
        }, {  offset: function() {
            return -$(this).height() + 20;
        } });
-    }*/
+    }
     /*-----------------------------------------------------------------------------------*/
     /* 		NAVIGATION SMOOTH SCROLL END
     /*-----------------------------------------------------------------------------------*/
-
+    // $(document).on("scroll",function(){
+    //   var active = $('.nav-element.active a').html();
+    //   console.log(active);
+    // });
 
 });

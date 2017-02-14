@@ -1,11 +1,10 @@
-.banner video {
+.banner video{
     height: 100%;
     width: 100%;
 }
 .fullscreen-bg-container {
 	position: relative;
     height: 100vh;
-    background-color: #fafafa;
 }
 .fullscreen-bg {
     position: fixed;
@@ -33,7 +32,6 @@
     transform: translate(-50%, -50%);
 }
 .fullscreen-bg-mobile {
-    position: relative;
     width: 100%;
-    display: block;
+    position: relative;
 }

@@ -1,6 +1,10 @@
 #home{
     /* padding-top: 10vh; */
 }
+.section {
+    position: relative;
+    z-index: 9;
+}
 #show {
     background: #f8f8f8;
     z-index: 10;

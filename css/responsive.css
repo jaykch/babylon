@@ -5,12 +5,16 @@
 	}
 	.main-container {
 		width: 100%;
+		overflow-x: hidden;
 	}
 	.fullscreen-bg-container {
 		display: none;
 	}
 	.nav-bar{
 	    margin:0;
+	}
+	.nav-video {
+		display: block;
 	}
 	.nav-bar ul {
 		height: auto;
@@ -34,6 +38,9 @@
 	}
 	.nav-fixed {
 		padding: 0;
+	}
+	.active-nav-element {
+		display: block;
 	}
 
 }//end media query
