@@ -1,49 +1,58 @@
-#show {    
-    background: #fff;
+#home{
+    /* padding-top: 10vh; */
+}
+.section {
+    position: relative;
+    z-index: 9;
+}
+#show {
+    background: #f8f8f8;
     z-index: 10;
     position: relative;
     color: #2b3376;
 }
-#show h2{
+section#show {
+    padding-top: 40px; 
+}  
+
+#show h2 {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 10px;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
-#show p{
+
+#show p {
     max-width: 720px;
     text-align: center;
     font-size: 16px;
 }
-.show-subtitle{
+
+.show-subtitle {
     max-width: 720px;
     padding: 20px;
     font-size: 3em;
     text-align: center;
 }
+
 #chill {
-    background: #2b3376;
-    color: #fff;
+    background: #fadf10;
+    color: #2b3376;
 }
 
-#chill h2{
+#chill h2 {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 10px;
     text-transform: uppercase;
-    padding:50px 0 0 30px;
+    padding: 0 0 30px;
     text-align: left;
 }
 
-#chill p{
-    padding:50px 0 0 30px;
+#chill span {
+    padding: 50px 0 0 0;
     letter-spacing: 2px;
-}
-
-#party {
-    background: #7ccbe0;
-    color: #2b3376;
 }
 
 #music {
@@ -55,53 +64,254 @@
     background: #2b3376;
     color: #fff;
 }
-
-#contact {
-    background: #fff;
-    color: #2b3376;
+#food li p {
+    margin-bottom: 6px;
 }
 
-#contact h2{
+#contact {
+    background: #f8f8f8;
+    color: #2b3376;
+    margin-bottom: 20px;
+}
+
+#contact h2 {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 10px;
     text-transform: uppercase;
-    padding:50px 30px 0 30px;
+    padding: 0 30px 0 30px;
     text-align: right;
 }
 
-#contact p{
-    padding:50px 0 0 30px;
-    letter-spacing: 2px;
+#contact p {
+    font-weight: bold;
+    color: #828282;
+    font-size: .75em;
+    line-height: 170%;
 }
 
-h2{
+h2 {
     font-size: 5vh;
-    padding: 30px;
     text-align: center;
 }
 
-.food{
+.food {
     text-align: right;
-    padding:0 30px 0 50px;
+    padding: 0 30px 0 50px;
 }
 
-.drinks{
+.drinks {
     text-align: left;
-    border-left: white 3px dotted;
-    padding:0 50px 0 30px;
+    border-left: #fff 3px dotted;
+    padding: 0 50px 0 30px;
 }
 
-.food, .drinks{
+.food, .drinks {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
 
-.drinks ul{
+.drinks ul {
 }
 
-.spotify{
+.spotify {
     height: 600px;
-    width:100%;
- }
- 
+    width: 100%;
+}
+
+section#music, section#video {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+section#video{
+    padding-top: 10px;
+    background: #000;
+    color: #fff;
+}
+
+.contact-header {
+    padding-bottom: 20px;
+    border-bottom: solid #e9eaf1 1px;
+}
+
+.contact-feature {
+    padding: 0;
+    border-bottom: solid #e9eaf1 1px;
+}
+
+.contact-feature:nth-child(1) {
+    border-left: solid #e9eaf1 1px;
+}
+
+.contact-feature:nth-child(2) {
+    border-right: solid #e9eaf1 1px;
+}
+
+.contact-feature h4 {
+    margin: 40px 0 20px 0;
+}
+
+.contact-feature-item {
+    margin: 60px 0;
+    padding: 0 60px;
+}
+
+.contact-feature:nth-child(1) > .contact-feature-item {
+    border-right: solid #e9eaf1 1px;
+}
+
+.contact-address {
+    text-align: center;
+    padding: 60px;
+    font-size: .75em;
+    border-left: solid #e9eaf1 1px;
+}
+
+.contact-address span, .contact-address a {
+    color: #828282;
+}
+
+.footer-arrow > img{
+    height: 20px;
+}
+.footer-arrow{
+    width: 100%;
+    margin-top:30px;
+}
+.company-icons{
+    padding:60px;
+}
+.contact-bottom{
+    border-bottom: solid #e9eaf1 1px;
+}
+.company-icons img{
+    width: 48px;
+    margin:0 10px;
+}
+
+.footer-social-icons img{
+    width:32px;
+}
+.fat-heading {
+    margin-bottom: 30px;
+}
+#music p {
+    font-size: 16px;
+}
+.dots-header img {
+    width: 45px;
+}
+.card-container{
+    height:400px;
+    min-width: 250px;
+    margin:20px 0;
+    width: 30%;
+}
+.card-container:nth-child(1){
+    background: url("https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/16700563_836052709866539_5697341633593345029_o.jpg?oh=9c7ca820b4d53ca0db5885c59906b2e6&oe=593C435E") center;
+    background-size: cover;
+}
+.card-container:nth-child(2){
+    background: url("https://scontent-sit4-1.xx.fbcdn.net/v/t31.0-8/10959991_509507552521058_1339098051511698075_o.jpg?oh=9f7a76f6a26018480c6ec9fd9a1a1857&oe=5905F85C") center;
+    background-size: cover;
+}
+.card-container:nth-child(3){
+    background: url("https://scontent-sit4-1.xx.fbcdn.net/v/l/t31.0-8/16251617_827677800704030_1771880869249293669_o.jpg?oh=2641127bbb4d6f105ee24ca98b6eda00&oe=594C1B90") center;
+    background-size: cover;
+}
+.section#contact .fa {
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 0;
+    margin-top: 11px;
+}
+.section#contact .icon-container {    
+    border-radius: 50%;
+    padding: 11.5px 20px;
+    border: 2px solid #2b3376;
+    margin-right: 15px;
+    position: relative;
+    font-weight: 900;
+}
+.header-social {
+    margin-top: 60px;
+}
+.header-social .fa {
+    font-size: 18px;
+    position: absolute;
+    color: #d40b1e;
+    width: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 0;
+    margin-top: 11px;
+}
+.header-social .icon-container {    
+    border-radius: 50%;
+    padding: 11.5px 20px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    margin-right: 15px;
+    position: relative;
+    font-weight: 900;
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+}
+.header-social .icon-container:hover .fa {
+    color: #fff;
+}
+.header-social .icon-container:hover {    
+    border: 2px solid #d40b1e;
+    background-color: #d40b1e;
+}
+
+/*-----------------Responsive CSS---------------------*/
+
+@media screen and (max-width: 780px) {
+    h2, .dots-header img, .footer-social-icons {
+        display: none;
+    }
+    .drinks, .contact-feature:nth-child(1) > .contact-feature-item, .contact-address{
+        border:none;
+    }
+    .contact-feature-item{
+        border-right:none;
+    }
+    .contact-address, .food, .drinks{
+        padding: 0;
+    }
+    .contact-feature-item{
+        padding:0 20px;
+    }
+    .food, .drinks{
+        text-align: center;
+    }
+    .drinks{
+        margin-top: 30px;
+    }
+    .section{
+        padding:30px;
+    }
+    #music p{
+        display: none;
+    }
+    #contact{
+        margin-bottom: 0;
+    }
+    .cards-container{
+        justify-content: center;
+    }
+    .card-container{
+        margin: 20px;
+    }
+}

@@ -5,10 +5,15 @@
 .nav-bar ul {
     list-style: none;
     margin:0;
-    height: 70px;    
+    height: 70px; 
+    display: flex;
+    flex-flow: row;   
+    justify-content: center;
 }
 #navigation-container {
     margin-top:-20vh;
+    z-index: 99;
+    position: relative;
 }
 .nav-bar a{
     font-family: 'Rubik Mono One', sans-serif;
@@ -25,6 +30,8 @@
 .nav-bar li a {
     color: inherit;
     transition: none;
+    position: relative;
+    z-index: 10;
 }
 
 .nav-bar li:nth-last-child(1){
@@ -41,7 +48,116 @@
     z-index: 99;
     left: 0;
     right: 0;
-}
-.nav-shadow {
     box-shadow: 0px 5px 25px -9px rgba(0, 0, 0, 0.8);
+}
+/* .nav-shadow {
+    box-shadow: 0px 5px 25px -9px rgba(0, 0, 0, 0.8);
+} */
+.header-text {
+    margin: 40px auto;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;  
+    letter-spacing: 1.6px;
+    line-height: 1.8;
+    position: fixed;
+}
+.header-text p {
+    font-size: 14px;
+}
+.header-text h3 {
+    font-size: 38px;
+    font-weight: 900;  
+}
+.header-text .year {
+    margin-bottom: 10px;
+}
+.header-text .deposit-txt {
+    padding: 0 245px;
+}
+.header-logo {
+    width: 180px;
+    margin: 0 auto;
+}
+.nav-element {
+    position: relative;
+}
+/*  .nav-element.active a:after{
+   content: '';
+   height: 3.5px;
+   width: 100%;
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+   z-index: 1;
+   background-color: #d40b1e;
+   top: 22px;
+   border-radius: 10px;
+}  */
+/* .nav-element.active a {
+    color: #d40b1e;
+} */
+.header-btn {
+    margin-top: 40px;
+}
+.header-btn a {
+    background-color: #fff;
+    padding: 22px 32px;
+    font-family: 'Rubik', sans-serif;
+    outline: none;
+    font-weight: 900;
+    color: #d40b1e;
+    margin: 0 30px;
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative;
+    -webkit-transition: all 0.65s ease;
+    -moz-transition: all 0.65s ease;
+    -ms-transition: all 0.65s ease;
+    -o-transition: all 0.65s ease;
+    transition: all 0.65s ease;
+    border-radius: 100px;
+}
+.header-btn a:hover {
+    background-color: #d40b1e;
+    color: #fff;
+}
+.header-btn a span {
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+    margin-left: 40px;
+    margin-bottom: 2px;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.nav-video {
+    display: none;
+}
+.active-nav-element {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .navbar-collapse li, .navbar-header p{
+        font-family: 'Rubik Mono One', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-header{
+        position: relative;
+    }
+    .navbar-header p{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .navbar-toggle{
+        z-index: 10;
+    }
 }

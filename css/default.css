@@ -37,8 +37,14 @@ ul > li > a:hover {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-section {
+/*section {
     min-height: 60vh;
+}*/
+
+.section{
+    padding:60px 60px;
+    z-index: 2;
+    position: relative;
 }
 
 a {
@@ -174,9 +180,17 @@ option, select {
 }
 
 .no-padding {
-    padding: 0;
+    padding: 0!important;
 }
-
-.main-continer {
+.no-padding-left{
+    padding-left: 0!important;
+}
+.no-padding-right{
+    padding-right:0!important;
+}
+.main-container {
     background: #1b1f46;
+}
+.mobile-header {
+    display: none;
 }
