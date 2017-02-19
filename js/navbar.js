@@ -104,7 +104,7 @@ jQuery(document).ready(function($) {
                $('.nav-bar ul a').parent().removeClass("active");
                $('.nav-bar ul a[href="\\#'+$(this).attr('id')+'"]').parent().addClass("active");
            }
-       }, { offset: 70 });
+       }, { offset: 56 });
         $(navLinkIDs).waypoint(function(direction) {
            if(direction=='up') {
                $('.nav-bar ul a').parent().removeClass("active");
